@@ -1,39 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Advanced Selecros</title>
+    <title>Advanced Selectors</title>
     <style>
-        section>p {
+        section > p {
             background-color: green;
         }
-        
-        h3+h4,
-        h3+h4+h4 {
-            background-color: orange;
+        h3 + h4,
+        h3 + h4 + h4 {
+            background-color: pink;
         }
-        
-        li[class] {
-            background-color: yellowgreen;
+        ul li[class] {
+            background-color: orange;
         }
     </style>
 </head>
-
 <body>
     <h3>Children</h3>
     <section>
         <header>
             <p>Lorem Ipsum</p>
         </header>
-        <p>Lorem ipsum</p>
+        <p>Lorem Ipsum</p>
     </section>
 
-    <h3>Adjacent</h3>
-    <h4> Lorem Ipsum</h4>
-    <h4>Dolor Sit Amet</h4>
+    <h3> Adjacent </h3>
+    <h4> Lorem Ipsum </h4>
+    <h4> Dolor Sit Amet</h4>
 
     <h3>Attribute</h3>
     <ul>
@@ -43,6 +39,6 @@
         <li>Element 4</li>
         <li class="color">Element 5</li>
     </ul>
-</body>
 
+</body>
 </html>

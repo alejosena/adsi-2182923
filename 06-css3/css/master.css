@@ -1,0 +1,36 @@
+body {
+	background-color: #297baa;
+	font-family: Arial;
+	padding: 0px;
+	margin: 0px; 
+}
+main {
+	background-color: #fff;
+	border: 10px solid #1a4c69;
+	margin: 40px auto;
+	padding: 20px;
+	width:  80%;
+}
+main h1 {
+	background-color: #fff;
+	color: #fff;
+	padding: 10px;
+	text-align: center;
+	margin: 0px;
+}
+main section {
+	padding: 20px;
+}
+main section ul {
+	list-style: none;
+	padding: 0px;
+	margin: 20px auto;
+	width: 200px;
+}
+main section ul li a:link,
+main section ul li a:visited {
+	background-color: #247196;
+	border-left: 20px solid #1a4c69;
+	color: #fff;
+	
+}
