@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Challenge Sprite</title>
+	<style>
+		body {
+			background-color: #17a053;
+			background-size: contain;
+		}
+		main {
+			margin: 40px auto;
+			font-family: Arial;
+			position: relative;
+			width: 740px;
+		}
+		section#spriteweb.sp1{
+			background: url(imgs/spriteweb.png) no-repeat;
+			height: 187px;
+			margin: 50px auto;
+			width: 192px;
+		}
+		section#spriteweb.sp1 {
+			background-position: -10px -400px;
+		}
+		main ul.menu {
+			list-style: none;
+			padding-left: 0px;
+		}
+		main ul.menu li {
+			border: 15px solid #17a053;
+			display: inline-block;
+		}
+		main ul.menu li a:link,
+		main ul.menu li a:visited {
+			color: #fff;
+			background-color: #267112;
+			display: block;
+			padding: 17px;
+			border-bottom: 3px solid #fff;
+			text-decoration: none;
+			text-align: center;
+			width: 80px;
+		}
+		main ul.menu li a:hover {
+			background-color: #F9F373;
+			border-bottom: 3px solid #F9F373;
+		}
+		main ul.menu li a:active {
+			background-color: #000;
+		}
+		main section.box {
+			background-color: #267112;
+		}
+		main section.box ul {
+			display: inline-block;
+			border-bottom: -50px solid #267112;
+			padding-left: 60px;
+		}
+		main section.box li {
+			display: inline-block;
+		}
+		section li#spriteweb.sp2 {
+			background: url(imgs/spriteweb.png)no-repeat;
+			height: 187px;
+			margin: 50px auto;
+			width: 193px;
+			background-position: -590px -10px;
+		}
+		section.box {
+			height: 255px;
+			margin: 12px;
+		}
+		li.sp2 {
+			position: relative;
+			top: -45px;
+			left: -30px;
+			border: 11px solid #267112;
+		}
+		h3 {
+			background-color: #FFFFFF50;
+			text-align: center;
+      		position: absolute;
+      		left: 0px;
+      		top: -19px;
+      		width: 90%;
+      		height: 40px;
+      		padding: 5%; 
+      		cursor: pointer;
+		}
+		h3:hover {
+			transform: scale(1.01);
+        	background-color: white;
+        	opacity: 0.75;
+		}
+		div.box {
+			background-color: #267112;
+			background-size: contain;
+		}
+		div.row {
+			background-color: white;
+			border: 5px solid #267112;
+			height: 160px;
+		}
+		div#spriteweb.sp3 {
+			background: url(imgs/spriteweb.png)no-repeat;
+			height: 100px;
+			margin: 50px auto;
+			width: 170px;
+			background-position: -250px -488px;
+			position: relative;
+			top: -30px;
+			left: -280px;
+		}
+		p {
+			height: 100px;
+			margin: 50px auto;
+			width: 300px;
+			position: relative;
+			top: -180px;
+			cursor: pointer;
+		}
+		p a {
+			color: black;
+			text-decoration: none;
+		}
+		p a:hover {
+			color: #267112;
+		}
+		div#spriteweb.sp4 {
+			background: url(imgs/spriteweb.png)no-repeat;
+			height: 139px;
+			margin: 50px auto;
+			width: 170px;
+			background-position: -75px -225px;
+			position: relative;
+			top: -340px;
+			left: 280px;
+		}
+		footer {
+			background-color: #fff;
+			background-size: contain;
+			height: 250px;
+			position: relative;
+			top: 30px;
+		}
+		div#spriteweb.sp5 {
+			background: url(imgs/spriteweb.png)no-repeat;
+			height: 210px;
+			width: 350px;
+			background-position: -500px -430px;
+			position: relative;
+			top: 30px;
+			left: 250px;
+		}
+		footer div.box2 ul li {
+			list-style: none;
+			padding-left: 40px;
+			display: inline-block;
+		}
+		footer div.box2 ul li a {
+			text-decoration: none;
+			color: black;
+		}
+		footer div.box2 ul li a:hover {
+			border-bottom: 3px solid green;
+		}
+	</style>
+</head>
+<body>
+	<main>
+		<section id="spriteweb" class="sp1"></section>
+		<div>
+			<ul class="menu">
+			<li><a href="javascript:;">Inicio</a></li>
+			<li><a href="javascript:;">Nosotros</a></li>
+			<li><a href="javascript:;">Portafolio</a></li>
+			<li><a href="javascript:;">Servicios</a></li>
+			<li><a href="javascript:;">Contacto</a></li>
+			</ul>
+	</div>
+	<section class="box">
+		<ul>
+			<li id="spriteweb" class="sp2"><h3>Sprite 01</h3></li>
+			<li id="spriteweb" class="sp2"><h3>Sprite 02</h3></li>
+			<li id="spriteweb" class="sp2"><h3>Sprite 03</h3></li>
+		</ul>
+	</section>
+	<div class="box">
+		<div class="row row1">
+			<div id="spriteweb" class="sp3"></div>
+			<div><p><a href="javascript:;">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque impedit, sapiente, perspiciatis aut, repudiandae, vero consectetur vel suscipit nostrum expedita consequuntur sunt quae cumque incidunt maiores ab omnis commodi. Eveniet!</a></p></div>
+			<div id="spriteweb" class="sp4"></div>
+		</div>
+		<div class="row row2">
+			<div id="spriteweb" class="sp3"></div>
+			<div><p><a href="javascript:;">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque impedit, sapiente, perspiciatis aut, repudiandae, vero consectetur vel suscipit nostrum expedita consequuntur sunt quae cumque incidunt maiores ab omnis commodi. Eveniet!</a></p></div>
+			<div id="spriteweb" class="sp4"></div>
+		</div>
+		<div class="row row3">
+			<div id="spriteweb" class="sp3"></div>
+			<div><p><a href="javascript:;">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque impedit, sapiente, perspiciatis aut, repudiandae, vero consectetur vel suscipit nostrum expedita consequuntur sunt quae cumque incidunt maiores ab omnis commodi. Eveniet!</a></p></div>
+			<div id="spriteweb" class="sp4"></div>
+		</div>
+	<footer>
+		<div class="box2">
+			<div id="spriteweb" class="sp5"></div>
+		<ul>
+			<li><a href="javascript:;">INICIO</a></li>
+			<li><a href="javascript:;">NOSOTROS</a></li>
+			<li><a href="javascript:;">PORTAFOLIO</a></li>
+			<li><a href="javascript:;">SERVICIOS</a></li>
+			<li><a href="javascript:;">CONTACTO</a></li>
+			
+		</ul>
+	</div>
+	</footer>
+	</main>
+</body>
+</html>
